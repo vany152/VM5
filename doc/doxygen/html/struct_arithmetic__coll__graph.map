@@ -1,0 +1,4 @@
+<map id="Arithmetic" name="Arithmetic">
+<area shape="rect" id="node1" title="базовый класс для арифметических команд" alt="" coords="13,131,95,208"/>
+<area shape="rect" id="node2" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="5,5,103,83"/>
+</map>

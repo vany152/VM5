@@ -1,0 +1,17 @@
+<map id="ConditionalJump" name="ConditionalJump">
+<area shape="rect" id="node1" title="базовый класс для команд условного перехода" alt="" coords="662,256,779,333"/>
+<area shape="rect" id="node4" href="$structja.html" title="jump above" alt="" coords="5,381,103,459"/>
+<area shape="rect" id="node5" href="$structjae.html" title="jump above \ equal" alt="" coords="127,381,224,459"/>
+<area shape="rect" id="node6" href="$structjb.html" title="jump below" alt="" coords="248,381,345,459"/>
+<area shape="rect" id="node7" href="$structjbe.html" title="jump below \ equal" alt="" coords="369,381,467,459"/>
+<area shape="rect" id="node8" href="$structjc.html" title="jump carry" alt="" coords="491,381,588,459"/>
+<area shape="rect" id="node9" href="$structje.html" title="jump equal" alt="" coords="612,381,709,459"/>
+<area shape="rect" id="node10" href="$structjg.html" title="jump greater" alt="" coords="733,381,831,459"/>
+<area shape="rect" id="node11" href="$structjge.html" title="jump greater \ equal" alt="" coords="855,381,952,459"/>
+<area shape="rect" id="node12" href="$structjl.html" title="jump lower" alt="" coords="976,381,1073,459"/>
+<area shape="rect" id="node13" href="$structjle.html" title="jump lower \ equal" alt="" coords="1097,381,1195,459"/>
+<area shape="rect" id="node14" href="$structjne.html" title="jump not equal" alt="" coords="1219,381,1316,459"/>
+<area shape="rect" id="node15" href="$structjo.html" title="jump overflow" alt="" coords="1340,381,1437,459"/>
+<area shape="rect" id="node2" href="$struct_jump.html" title="базовый класс для команд перехода" alt="" coords="694,131,747,208"/>
+<area shape="rect" id="node3" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="672,5,769,83"/>
+</map>

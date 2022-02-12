@@ -1,0 +1,6 @@
+<map id="Compare" name="Compare">
+<area shape="rect" id="node1" title="базовый класс для команд сравнения" alt="" coords="77,131,151,208"/>
+<area shape="rect" id="node3" href="$structcmp.html" title="целочисленное сравнение" alt="" coords="5,256,103,333"/>
+<area shape="rect" id="node4" href="$structrcmp.html" title="вещественное сравнение" alt="" coords="127,256,224,333"/>
+<area shape="rect" id="node2" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="65,5,163,83"/>
+</map>

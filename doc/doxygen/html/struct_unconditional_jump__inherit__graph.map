@@ -1,0 +1,8 @@
+<map id="UnconditionalJump" name="UnconditionalJump">
+<area shape="rect" id="node1" title="базовый класс для команд безусловного перехода" alt="" coords="110,256,241,333"/>
+<area shape="rect" id="node4" href="$structcall.html" title="вызов процедуры" alt="" coords="5,381,103,459"/>
+<area shape="rect" id="node5" href="$structjmp.html" title="безусловный прямой переход" alt="" coords="127,381,224,459"/>
+<area shape="rect" id="node6" href="$structret.html" title="возврат из процедуры" alt="" coords="248,381,345,459"/>
+<area shape="rect" id="node2" href="$struct_jump.html" title="базовый класс для команд перехода" alt="" coords="149,131,202,208"/>
+<area shape="rect" id="node3" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="127,5,224,83"/>
+</map>

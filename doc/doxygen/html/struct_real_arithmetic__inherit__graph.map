@@ -1,0 +1,9 @@
+<map id="RealArithmetic" name="RealArithmetic">
+<area shape="rect" id="node1" title="базовый класс для арифметических команд с вещественными числами" alt="" coords="177,256,283,363"/>
+<area shape="rect" id="node4" href="$structradd.html" title="вещественное сложение" alt="" coords="5,411,100,488"/>
+<area shape="rect" id="node5" href="$structrdiv.html" title="вещественное деление" alt="" coords="124,411,219,488"/>
+<area shape="rect" id="node6" href="$structrmul.html" title="вещественное умножение" alt="" coords="243,411,337,488"/>
+<area shape="rect" id="node7" href="$structrsub.html" title="вещественное вычитание" alt="" coords="361,411,456,488"/>
+<area shape="rect" id="node2" href="$struct_arithmetic.html" title="базовый класс для арифметических команд" alt="" coords="189,131,271,208"/>
+<area shape="rect" id="node3" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="181,5,279,83"/>
+</map>

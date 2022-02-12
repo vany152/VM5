@@ -1,0 +1,51 @@
+<map id="Command" name="Command">
+<area shape="rect" id="node1" title="базовый класс команды процессора." alt="" coords="2515,5,2612,83"/>
+<area shape="rect" id="node2" href="$struct_arithmetic.html" title="базовый класс для арифметических команд" alt="" coords="1377,131,1459,208"/>
+<area shape="rect" id="node19" href="$struct_compare.html" title="базовый класс для команд сравнения" alt="" coords="1871,131,1946,208"/>
+<area shape="rect" id="node22" href="$struct_i_o.html" title="базовый класс для команд ввода&#45;вывода" alt="" coords="2241,131,2280,208"/>
+<area shape="rect" id="node31" href="$struct_jump.html" title="базовый класс для команд перехода" alt="" coords="2781,131,2834,208"/>
+<area shape="rect" id="node44" href="$struct_move.html" title="базовый класс для команд пересылки" alt="" coords="3128,131,3180,208"/>
+<area shape="rect" id="node49" href="$structstop.html" title="команда остановки процессора" alt="" coords="3204,131,3301,208"/>
+<area shape="rect" id="node3" href="$struct_integer_arithmetic.html" title="базовый класс для арифметических операций с целыми числами" alt="" coords="586,256,706,363"/>
+<area shape="rect" id="node14" href="$struct_real_arithmetic.html" title="базовый класс для арифметических команд с вещественными числами" alt="" coords="1365,256,1471,363"/>
+<area shape="rect" id="node4" href="$structadc.html" title="целочисленное сложение с учетом CF" alt="" coords="5,418,100,495"/>
+<area shape="rect" id="node5" href="$structadd.html" title="целочисленное сложение" alt="" coords="124,418,219,495"/>
+<area shape="rect" id="node6" href="$structdec.html" title="целочисленный декремент" alt="" coords="243,418,337,495"/>
+<area shape="rect" id="node7" href="$structdiv.html" title="целочисленное беззнаковое деление" alt="" coords="361,418,456,495"/>
+<area shape="rect" id="node8" href="$structidiv.html" title="целочисленное знаковое деление" alt="" coords="480,418,575,495"/>
+<area shape="rect" id="node9" href="$structimul.html" title="целочисленное знаковое умножение" alt="" coords="599,411,693,503"/>
+<area shape="rect" id="node10" href="$structinc.html" title="целочисленный инкремент" alt="" coords="717,418,812,495"/>
+<area shape="rect" id="node11" href="$structmul.html" title="целочисленное беззнаковое умножение" alt="" coords="836,411,931,503"/>
+<area shape="rect" id="node12" href="$structsbb.html" title="целочисленное вычитание с учетом CF" alt="" coords="955,418,1049,495"/>
+<area shape="rect" id="node13" href="$structsub.html" title="целочисленное вычитание" alt="" coords="1073,418,1168,495"/>
+<area shape="rect" id="node15" href="$structradd.html" title="вещественное сложение" alt="" coords="1192,418,1287,495"/>
+<area shape="rect" id="node16" href="$structrdiv.html" title="вещественное деление" alt="" coords="1311,418,1405,495"/>
+<area shape="rect" id="node17" href="$structrmul.html" title="вещественное умножение" alt="" coords="1429,418,1524,495"/>
+<area shape="rect" id="node18" href="$structrsub.html" title="вещественное вычитание" alt="" coords="1548,418,1643,495"/>
+<area shape="rect" id="node20" href="$structcmp.html" title="целочисленное сравнение" alt="" coords="1739,271,1836,348"/>
+<area shape="rect" id="node21" href="$structrcmp.html" title="вещественное сравнение" alt="" coords="1860,271,1957,348"/>
+<area shape="rect" id="node23" href="$struct_integer_i_o.html" title="базовый класс для команд ввода&#45;вывода целых чисел" alt="" coords="1982,271,2057,348"/>
+<area shape="rect" id="node28" href="$struct_real_i_o.html" title="базовый класс для команд ввода&#45;вывода вещественных чисел" alt="" coords="2230,271,2291,348"/>
+<area shape="rect" id="node24" href="$structiin.html" title="ввод целого знакового числа" alt="" coords="1667,418,1764,495"/>
+<area shape="rect" id="node25" href="$structin.html" title="ввод целого беззнакового числа" alt="" coords="1788,418,1885,495"/>
+<area shape="rect" id="node26" href="$structiout.html" title="вывод целого знакового числа" alt="" coords="1909,418,2007,495"/>
+<area shape="rect" id="node27" href="$structout.html" title="вывод целого беззнакового числа" alt="" coords="2031,418,2128,495"/>
+<area shape="rect" id="node29" href="$structrin.html" title="ввод вещественного числа" alt="" coords="2152,418,2249,495"/>
+<area shape="rect" id="node30" href="$structrout.html" title="вывод вещественного числа" alt="" coords="2273,418,2371,495"/>
+<area shape="rect" id="node32" href="$struct_conditional_jump.html" title="базовый класс для команд условного перехода" alt="" coords="2749,271,2866,348"/>
+<area shape="rect" id="node43" href="$struct_unconditional_jump.html" title="базовый класс для команд безусловного перехода" alt="" coords="2890,271,3021,348"/>
+<area shape="rect" id="node33" href="$structja.html" title="jump above" alt="" coords="2395,418,2492,495"/>
+<area shape="rect" id="node34" href="$structjae.html" title="jump above \ equal" alt="" coords="2516,418,2613,495"/>
+<area shape="rect" id="node35" href="$structjb.html" title="jump below" alt="" coords="2637,418,2735,495"/>
+<area shape="rect" id="node36" href="$structjbe.html" title="jump below \ equal" alt="" coords="2759,418,2856,495"/>
+<area shape="rect" id="node37" href="$structjc.html" title="jump carry" alt="" coords="2880,418,2977,495"/>
+<area shape="rect" id="node38" href="$structje.html" title="jump equal" alt="" coords="3001,418,3099,495"/>
+<area shape="rect" id="node39" href="$structjg.html" title="jump greater" alt="" coords="3123,418,3220,495"/>
+<area shape="rect" id="node40" href="$structjge.html" title="jump greater \ equal" alt="" coords="3244,418,3341,495"/>
+<area shape="rect" id="node41" href="$structjl.html" title="jump lower" alt="" coords="3365,418,3463,495"/>
+<area shape="rect" id="node42" href="$structjle.html" title="jump lower \ equal" alt="" coords="3487,418,3584,495"/>
+<area shape="rect" id="node45" href="$structfill.html" title="заполнение регистра числом, введенным в команде" alt="" coords="3045,271,3143,348"/>
+<area shape="rect" id="node46" href="$structload.html" title="пересылка память &#45; регистр" alt="" coords="3167,271,3264,348"/>
+<area shape="rect" id="node47" href="$structmov.html" title="пересылка регистр &#45; регистр" alt="" coords="3288,271,3385,348"/>
+<area shape="rect" id="node48" href="$structstore.html" title="пересылка регистр &#45; память" alt="" coords="3409,271,3507,348"/>
+</map>

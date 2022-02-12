@@ -1,0 +1,5 @@
+<map id="load" name="load">
+<area shape="rect" id="node1" title="пересылка память &#45; регистр" alt="" coords="5,256,103,333"/>
+<area shape="rect" id="node2" href="$struct_move.html" title="базовый класс для команд пересылки" alt="" coords="28,131,80,208"/>
+<area shape="rect" id="node3" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="5,5,103,83"/>
+</map>

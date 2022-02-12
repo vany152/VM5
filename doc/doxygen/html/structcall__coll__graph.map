@@ -1,0 +1,6 @@
+<map id="call" name="call">
+<area shape="rect" id="node1" title="вызов процедуры" alt="" coords="22,381,119,459"/>
+<area shape="rect" id="node2" href="$struct_unconditional_jump.html" title="базовый класс для команд безусловного перехода" alt="" coords="5,256,136,333"/>
+<area shape="rect" id="node3" href="$struct_jump.html" title="базовый класс для команд перехода" alt="" coords="44,131,97,208"/>
+<area shape="rect" id="node4" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="22,5,119,83"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="Arithmetic" name="Arithmetic">
+<area shape="rect" id="node1" title="базовый класс для арифметических команд" alt="" coords="961,131,1043,208"/>
+<area shape="rect" id="node3" href="$struct_integer_arithmetic.html" title="базовый класс для арифметических операций с целыми числами" alt="" coords="586,256,706,363"/>
+<area shape="rect" id="node14" href="$struct_real_arithmetic.html" title="базовый класс для арифметических команд с вещественными числами" alt="" coords="1305,256,1411,363"/>
+<area shape="rect" id="node2" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="953,5,1051,83"/>
+<area shape="rect" id="node4" href="$structadc.html" title="целочисленное сложение с учетом CF" alt="" coords="5,418,100,495"/>
+<area shape="rect" id="node5" href="$structadd.html" title="целочисленное сложение" alt="" coords="124,418,219,495"/>
+<area shape="rect" id="node6" href="$structdec.html" title="целочисленный декремент" alt="" coords="243,418,337,495"/>
+<area shape="rect" id="node7" href="$structdiv.html" title="целочисленное беззнаковое деление" alt="" coords="361,418,456,495"/>
+<area shape="rect" id="node8" href="$structidiv.html" title="целочисленное знаковое деление" alt="" coords="480,418,575,495"/>
+<area shape="rect" id="node9" href="$structimul.html" title="целочисленное знаковое умножение" alt="" coords="599,411,693,503"/>
+<area shape="rect" id="node10" href="$structinc.html" title="целочисленный инкремент" alt="" coords="717,418,812,495"/>
+<area shape="rect" id="node11" href="$structmul.html" title="целочисленное беззнаковое умножение" alt="" coords="836,411,931,503"/>
+<area shape="rect" id="node12" href="$structsbb.html" title="целочисленное вычитание с учетом CF" alt="" coords="955,418,1049,495"/>
+<area shape="rect" id="node13" href="$structsub.html" title="целочисленное вычитание" alt="" coords="1073,418,1168,495"/>
+<area shape="rect" id="node15" href="$structradd.html" title="вещественное сложение" alt="" coords="1192,418,1287,495"/>
+<area shape="rect" id="node16" href="$structrdiv.html" title="вещественное деление" alt="" coords="1311,418,1405,495"/>
+<area shape="rect" id="node17" href="$structrmul.html" title="вещественное умножение" alt="" coords="1429,418,1524,495"/>
+<area shape="rect" id="node18" href="$structrsub.html" title="вещественное вычитание" alt="" coords="1548,418,1643,495"/>
+</map>

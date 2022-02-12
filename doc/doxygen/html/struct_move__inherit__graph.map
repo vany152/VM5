@@ -1,0 +1,8 @@
+<map id="Move" name="Move">
+<area shape="rect" id="node1" title="базовый класс для команд пересылки" alt="" coords="209,131,261,208"/>
+<area shape="rect" id="node3" href="$structfill.html" title="заполнение регистра числом, введенным в команде" alt="" coords="5,256,103,333"/>
+<area shape="rect" id="node4" href="$structload.html" title="пересылка память &#45; регистр" alt="" coords="127,256,224,333"/>
+<area shape="rect" id="node5" href="$structmov.html" title="пересылка регистр &#45; регистр" alt="" coords="248,256,345,333"/>
+<area shape="rect" id="node6" href="$structstore.html" title="пересылка регистр &#45; память" alt="" coords="369,256,467,333"/>
+<area shape="rect" id="node2" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="187,5,284,83"/>
+</map>

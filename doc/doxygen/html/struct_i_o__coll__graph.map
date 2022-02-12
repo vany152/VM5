@@ -1,0 +1,4 @@
+<map id="IO" name="IO">
+<area shape="rect" id="node1" title="базовый класс для команд ввода&#45;вывода" alt="" coords="35,131,73,208"/>
+<area shape="rect" id="node2" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="5,5,103,83"/>
+</map>

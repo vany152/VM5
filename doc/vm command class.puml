@@ -1,0 +1,190 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+left to right direction
+
+abstract class Command {
+    + virtual void operator()(CPU & cpu) = 0
+}
+hide Command fields
+
+'КОМАНДЫ
+'Арифметические
+abstract class Arithmetic
+hide Arithmetic members
+Arithmetic -|> Command
+abstract class IntegerArithmetic
+hide IntegerArithmetic members
+IntegerArithmetic ----|> Arithmetic
+abstract class add
+hide add members
+add --|> IntegerArithmetic
+abstract class adc
+hide adc members
+adc --|> IntegerArithmetic
+abstract class inc
+hide inc members
+inc --|> IntegerArithmetic
+abstract class sub
+hide sub members
+sub --|> IntegerArithmetic
+abstract class sbb
+hide sbb members
+sbb --|> IntegerArithmetic
+abstract class dec
+hide dec members
+dec --|> IntegerArithmetic
+abstract class mul
+hide mul members
+abstract class imul
+mul --|> IntegerArithmetic
+hide imul members
+imul --|> IntegerArithmetic
+abstract class div
+hide div members
+div --|> IntegerArithmetic
+abstract class idiv
+hide idiv members
+idiv --|> IntegerArithmetic
+
+abstract class RealArithmetic
+hide RealArithmetic members
+RealArithmetic -|> Arithmetic
+abstract class radd
+hide radd members
+radd -|> RealArithmetic
+abstract class rsub
+hide rsub members
+rsub -|> RealArithmetic
+abstract class rmul
+hide rmul members
+rmul -|> RealArithmetic
+abstract class rdiv
+hide rdiv members
+rdiv -|> RealArithmetic
+
+'Сравнения
+abstract class Compare
+hide Compare members
+Command <|- Compare
+abstract class cmp
+hide cmp members
+Compare <|- cmp
+abstract class rcmp
+hide rcmp members
+Compare <|- rcmp
+
+'Пересылки
+abstract class Move
+hide Move members
+Move --|> Command
+abstract class mov
+hide mov members
+mov --|> Move
+abstract class load
+hide load members
+load --|> Move
+abstract class store
+hide store members
+store --|> Move
+abstract class fill
+hide fill members
+fill --|> Move
+
+'Ввод \ вывод
+abstract class IO
+hide IO members
+Command <|-- IO
+abstract class IntegerIO
+hide IntegerIO members
+IO <|-- IntegerIO
+abstract class in
+hide in members
+in --|> IntegerIO
+abstract class iin
+hide iin members
+iin --|> IntegerIO
+abstract class out
+hide out members
+out --|> IntegerIO
+abstract class iout
+hide iout members
+iout --|> IntegerIO
+
+abstract class RealIO
+hide RealIO members
+IO <|-- RealIO
+abstract class rin
+hide rin members
+rin --|> RealIO
+abstract class rout
+hide rout members
+rout --|> RealIO
+
+'Переходы
+abstract class Jump
+hide Jump members
+Jump ---|> Command
+
+abstract class UnconditionalJump
+hide UnconditionalJump members
+UnconditionalJump -right-|> Jump
+abstract class jmp
+hide jmp members
+jmp --|> UnconditionalJump
+abstract class call
+hide call members
+call --|> UnconditionalJump
+abstract class ret
+hide ret members
+ret --|> UnconditionalJump
+
+abstract class ConditionalJump
+hide ConditionalJump members
+ConditionalJump --|> Jump
+abstract class je
+hide je members
+je --|> ConditionalJump
+'je --|> UnsignedJump
+abstract class jne
+hide jne members
+jne --|> ConditionalJump
+
+abstract class jg
+hide jg members
+jg --|> ConditionalJump
+abstract class jge
+hide jge members
+jge --|> ConditionalJump
+abstract class jl
+hide jl members
+jl --|> ConditionalJump
+abstract class jle
+hide jle members
+jle --|> ConditionalJump
+abstract class jo
+hide jo members
+jo --|> ConditionalJump
+
+abstract class ja
+hide ja members
+ja --|> ConditionalJump
+abstract class jae
+hide jae members
+jae --|> ConditionalJump
+abstract class jb
+hide jb members
+jb --|> ConditionalJump
+abstract class jbe
+hide jbe members
+jbe --|> ConditionalJump
+abstract class jc
+hide jc members
+jc --|> ConditionalJump
+
+' остановка
+abstract class "stop"
+hide "stop" members
+"stop" --|> Command
+
+@enduml

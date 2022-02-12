@@ -1,0 +1,73 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+left to right direction
+
+class PSW << (S, #aed2b3) >> {
+    + uint16_t IP
+    + uint8_t : 1 CF
+    + uint8_t : 1 ZF
+    + uint8_t : 1 SF
+    + uint8_t : 1 OF
+    + uint16_t : 12 reserved
+}
+hide PSW methods
+PSW --> CPU
+
+class command {
+	+ uint8_t length : 1
+	+ uint8_t opcode : 6
+	+ uint8_t size : 1
+	+ uint8_t reg_1 : 4
+	+ uint8_t reg_2 : 4
+	+ uint16_t offset
+}
+hide command methods
+command -+ CommandType
+
+class CommandType << (U, #aed4e3) >> {
+    command command
+    uint8_t raw[4]
+}
+hide CommandType methods
+CommandType --> CPU
+
+class CPU {
+    - PSW psw
+    - CommandType current
+
+    + Command * commands[64]
+    + Memory memory
+
+    - size_t readCommand(uint8_t address)
+    + CPU()
+    + SetIP(uint8_t IP)
+    + Run()
+}
+
+class Memory {
+    - uint8_t memory[65536]
+	+ uint8_t & operator[](address_t address)
+}
+Memory --o CPU
+
+class Preprocessor {
+    - stringstream buffer
+    - void readFile (char * filename)
+    - void removeComments ()
+    - void removeEmptyRows ()
+    - void getNumberOfArguments (string command)
+    - char getPrefix (string command)
+    - bool isRegistersCorrect (string command)
+    - bool checkCommands ()
+    + bool Process (char * filename, stringstream & program)
+}
+
+class PreprocessorError {
+    - string what
+    + PreprocessorError(string what)
+    + string What()
+}
+PreprocessorError --+ Preprocessor
+
+@enduml

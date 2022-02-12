@@ -1,0 +1,6 @@
+<map id="je" name="je">
+<area shape="rect" id="node1" title="jump equal" alt="" coords="15,381,113,459"/>
+<area shape="rect" id="node2" href="$struct_conditional_jump.html" title="базовый класс для команд условного перехода" alt="" coords="5,256,123,333"/>
+<area shape="rect" id="node3" href="$struct_jump.html" title="базовый класс для команд перехода" alt="" coords="37,131,91,208"/>
+<area shape="rect" id="node4" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="15,5,113,83"/>
+</map>

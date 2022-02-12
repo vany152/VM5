@@ -1,0 +1,6 @@
+<map id="radd" name="radd">
+<area shape="rect" id="node1" title="вещественное сложение" alt="" coords="11,411,106,488"/>
+<area shape="rect" id="node2" href="$struct_real_arithmetic.html" title="базовый класс для арифметических команд с вещественными числами" alt="" coords="5,256,112,363"/>
+<area shape="rect" id="node3" href="$struct_arithmetic.html" title="базовый класс для арифметических команд" alt="" coords="18,131,99,208"/>
+<area shape="rect" id="node4" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="10,5,107,83"/>
+</map>

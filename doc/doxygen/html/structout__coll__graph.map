@@ -1,0 +1,6 @@
+<map id="out" name="out">
+<area shape="rect" id="node1" title="вывод целого беззнакового числа" alt="" coords="5,381,103,459"/>
+<area shape="rect" id="node2" href="$struct_integer_i_o.html" title="базовый класс для команд ввода&#45;вывода целых чисел" alt="" coords="17,256,91,333"/>
+<area shape="rect" id="node3" href="$struct_i_o.html" title="базовый класс для команд ввода&#45;вывода" alt="" coords="35,131,73,208"/>
+<area shape="rect" id="node4" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="5,5,103,83"/>
+</map>

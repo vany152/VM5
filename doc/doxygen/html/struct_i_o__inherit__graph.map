@@ -1,0 +1,12 @@
+<map id="IO" name="IO">
+<area shape="rect" id="node1" title="базовый класс для команд ввода&#45;вывода" alt="" coords="399,131,437,208"/>
+<area shape="rect" id="node3" href="$struct_integer_i_o.html" title="базовый класс для команд ввода&#45;вывода целых чисел" alt="" coords="259,256,334,333"/>
+<area shape="rect" id="node8" href="$struct_real_i_o.html" title="базовый класс для команд ввода&#45;вывода вещественных чисел" alt="" coords="509,256,570,333"/>
+<area shape="rect" id="node2" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="369,5,467,83"/>
+<area shape="rect" id="node4" href="$structiin.html" title="ввод целого знакового числа" alt="" coords="5,381,103,459"/>
+<area shape="rect" id="node5" href="$structin.html" title="ввод целого беззнакового числа" alt="" coords="127,381,224,459"/>
+<area shape="rect" id="node6" href="$structiout.html" title="вывод целого знакового числа" alt="" coords="248,381,345,459"/>
+<area shape="rect" id="node7" href="$structout.html" title="вывод целого беззнакового числа" alt="" coords="369,381,467,459"/>
+<area shape="rect" id="node9" href="$structrin.html" title="ввод вещественного числа" alt="" coords="491,381,588,459"/>
+<area shape="rect" id="node10" href="$structrout.html" title="вывод вещественного числа" alt="" coords="612,381,709,459"/>
+</map>

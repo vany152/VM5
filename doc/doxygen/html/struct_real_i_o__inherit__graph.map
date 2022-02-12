@@ -1,0 +1,7 @@
+<map id="RealIO" name="RealIO">
+<area shape="rect" id="node1" title="базовый класс для команд ввода&#45;вывода вещественных чисел" alt="" coords="83,256,145,333"/>
+<area shape="rect" id="node4" href="$structrin.html" title="ввод вещественного числа" alt="" coords="5,381,103,459"/>
+<area shape="rect" id="node5" href="$structrout.html" title="вывод вещественного числа" alt="" coords="127,381,224,459"/>
+<area shape="rect" id="node2" href="$struct_i_o.html" title="базовый класс для команд ввода&#45;вывода" alt="" coords="95,131,133,208"/>
+<area shape="rect" id="node3" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="65,5,163,83"/>
+</map>

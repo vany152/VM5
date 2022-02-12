@@ -1,0 +1,6 @@
+<map id="idiv" name="idiv">
+<area shape="rect" id="node1" title="целочисленное знаковое деление" alt="" coords="18,411,113,488"/>
+<area shape="rect" id="node2" href="$struct_integer_arithmetic.html" title="базовый класс для арифметических операций с целыми числами" alt="" coords="5,256,125,363"/>
+<area shape="rect" id="node3" href="$struct_arithmetic.html" title="базовый класс для арифметических команд" alt="" coords="25,131,106,208"/>
+<area shape="rect" id="node4" href="$struct_command.html" title="базовый класс команды процессора." alt="" coords="17,5,114,83"/>
+</map>
